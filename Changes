@@ -1,3 +1,6 @@
+0.03    - ???
+    - add (forgotten) dependency on Moose.
+
 0.02    - Fri Sep 24 12:44:24 PDT 2010
     - add support for "NULL encryption"
     - add support for "DES3-168 encryption"
