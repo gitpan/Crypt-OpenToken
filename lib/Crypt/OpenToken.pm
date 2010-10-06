@@ -12,7 +12,7 @@ use Crypt::OpenToken::KeyGenerator;
 use Crypt::OpenToken::Serializer;
 use Crypt::OpenToken::Token;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 our $DEBUG   = 0;
 
 # shared encryption password
@@ -378,6 +378,17 @@ to use:
 
 =back
 
+=head1 CAVEATS
+
+=over
+
+=item *
+
+This module does not (yet) support the "obfuscate password" option that is
+configurable within PingFederate's OpenToken adapter.
+
+=back
+
 =head1 AUTHOR
 
 Graham TerMarsch (cpan@howlingfrog.com)
@@ -389,6 +400,7 @@ Shawn Devlin (shawn.devlin@socialtext.com)
 Thanks to those who have provided feedback, comments, and patches:
 
   Jeremy Stashewsky
+  Travis Spencer
 
 =head2 Sponsors
 
